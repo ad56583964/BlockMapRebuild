@@ -1,20 +1,17 @@
 import { useState } from 'react'
 import logo from './logo.svg'
 import './App.css'
-// import BlockMap from './components/BlockMap/BlockMap.jsx'
-import TextSpace from './components/TextSpace/TextSpace'
+import BlockMap from './components/BlockMap/BlockMap.jsx'
+
 
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
     <div className="App">                
-        <TextSpace>
-        </TextSpace>
-        <div>
-          haha
-        </div>
-  
+      <BlockMap>
+
+      </BlockMap>
     </div>
   )
 }

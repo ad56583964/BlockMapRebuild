@@ -1,5 +1,8 @@
 import React from 'react'
 import { useState } from 'react'
+import TextSpace from '../../components/TextSpace/TextSpace'
+import Draggable from 'react-draggable'; // The default
+
 export default function BlockMap(){
     const render_map = [
     {id:1,name:"haha1"},
@@ -9,9 +12,16 @@ export default function BlockMap(){
 
     return (
         <div>
+            BlockMap
              {render_map.map(item => 
                 <div> 
-                    {item.id} {item.name}
+                    <Draggable>
+                        <div>
+                            <TextSpace>
+                            </TextSpace>
+                            {item.id} {item.name}
+                        </div>
+                    </Draggable>
                 </div>
             )}
         </div>       

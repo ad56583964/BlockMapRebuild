@@ -24,3 +24,19 @@
 2022年11月18日
     01点05分
         okk可以开始写button事件了
+    11点59分
+        555但是我要动态改变一个 style 额 这个不能 css module吧
+        -> so?? scss 干了什么??
+        -> react 风格 的 styles{} 和 css module 可以 混用吗?
+        ??试一下 styled-components??
+    12点28分
+        https://styled-components.com/
+    23点32分
+        开始搞吧 
+    23点40分
+        一个 button 是怎么被 styled 它怎么知道 这是一个 button
+        styled. 后面决定了 button 的类型
+    23点42分
+        怎么 hook styled-components 呢 ??
+    23点57分
+        今天就到这了,害之后还是放到siyuan里面记吧

@@ -4,6 +4,18 @@ import TextSpace from '../../components/TextSpace/TextSpace'
 import Draggable from 'react-draggable'; // The default
 import styles from './BlockMap.module.css'
 
+import styled, { css } from 'styled-components'
+
+//怎么 styled ?? button 
+const Button = styled.button`
+  background: transparent;
+  border-radius: 3px;
+  border: 2px solid palevioletred;
+  color: palevioletred;
+  margin: 0 1em;
+  padding: 0.25em 1em;
+  `;
+
 export default function BlockMap(){
     const render_map = [
     {id:1,name:"haha1"},
@@ -25,9 +37,9 @@ export default function BlockMap(){
                     </Draggable>
                 </div>
             )}
-            <button className = {styles.create_button}>
+            <Button className = {styles.create_button}>
                 create_button
-            </button>
+            </Button>
         </div>       
     );
 }
